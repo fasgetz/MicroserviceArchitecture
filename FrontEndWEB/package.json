@@ -1,0 +1,34 @@
+{
+  "name": "myapplication",
+  "version": "1.0.0",
+  "description": "Simple start project for Webpack&Vue",
+  "main": "main.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack serve",
+    "build": "cross-env NODE_ENV=production webpack",
+    "watch": "cross-env NODE_ENV=development webpack -w"
+  },
+  "author": "Andrew Radyukevich",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.11",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "*",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "vue-loader": "^16.2.0",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@vuelidate/core": "*",
+    "@vuelidate/validators": "*",
+    "axios": "^0.21.1",
+    "vue": "^3.0.11",
+    "vuex": "^4.0.2"
+  }
+}
